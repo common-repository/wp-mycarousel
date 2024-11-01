@@ -1,0 +1,139 @@
+/**
+ * ################################################################################
+ * WP MyCarousel
+ * 
+ * Copyright 2016 Eugen Mihailescu <eugenmihailescux@gmail.com>
+ * 
+ * This program is free software: you can redistribute it and/or modify it under
+ * the terms of the GNU General Public License as published by the Free Software
+ * Foundation, either version 3 of the License, or (at your option) any later
+ * version.
+ * 
+ * This program is distributed in the hope that it will be useful, but WITHOUT ANY
+ * WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+ * PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License along with
+ * this program.  If not, see <http://www.gnu.org/licenses/>.
+ * 
+ * ################################################################################
+ * 
+ * Short description:
+ * URL: http://mycarousel.mynixworld.info
+ * 
+ * Git revision information:
+ * 
+ * @version : 0.1-10 $
+ * @commit  : 2757080da1745ce2d7d12fd377c87e3367ab56a3 $
+ * @author  : eugenmihailescu <eugenmihailescux@gmail.com> $
+ * @date    : Wed Dec 7 22:53:26 2016 +0100 $
+ * @file    : wp-mycarousel-admin.css $
+ * 
+ * @id      : wp-mycarousel-admin.css | Wed Dec 7 22:53:26 2016 +0100 | eugenmihailescu <eugenmihailescux@gmail.com> $
+*/
+
+#featured-footer-image-container img {
+width: 100%;
+height: auto;
+}
+.column-key_ {
+width: auto;
+color: green !important;
+}
+.data-true, .data-false {
+font-family: "dashicons";
+}
+.data-true:BEFORE {
+content: "\f147";
+color: #34BB62;
+}
+.data-false:BEFORE {
+content: "\f158";
+color: #FF6447;
+}
+.column-shadow, .column-timer, .column-effect, .column-width, .column-height, .column-enabled, .column-progress {
+text-align: center !important;
+}
+td.column-timer:AFTER {
+content: " sec";
+}
+.sortable span {
+width: 100%;
+}
+.form-table {
+width: auto;
+}
+.form-table td input:not(.input_number ):not(.input-color ):not(.input_checkbox ):not(.button ), .form-table td textarea {
+width: 100%;
+}
+.mynix-editor-submit, .mynix-editor-cancel {
+display: inline-block;
+}
+.help_tip {
+float: right;
+cursor: help;
+}
+.mynix-welcome-wrapper {
+max-width: 600px;
+margin-left: auto;
+margin-right: auto;
+padding: 10px;
+border: 1px solid red #343434;
+border-radius: 10px;
+box-shadow: 0px 0px 5px #343434;
+background-color: #FFF;
+}
+.mynix-welcome-header {
+font-weight: bold;
+padding: 10px;
+border-radius: 5px;
+color: white;
+font-weight: bold;
+background: linear-gradient(to right, #FFF, #00A0D2, #00A0D2, #FFF) !important;
+text-align: center;
+}
+.mynix-welcome-wrapper ul.info li:before {
+color: #F57900;
+content: '\f534';
+}
+.mynix-welcome-wrapper ul li:before {
+font-family: "dashicons";
+display: inline-block;
+padding-right: 10px;
+padding-left: 10px;
+font-weight: bold;
+}
+.mynix-welcome-wrapper ul.plus li:before {
+color: #00A0D2;
+content: '\f502';
+}
+.mynix-welcome-wrapper ul.checked li:before {
+content: '\f147';
+color: #44B449;
+}
+​
+#mce-wp-mycarousel{
+border-collapse: collapse;
+margin-left: 50% !important;
+margin-right: 50% !important;
+}
+#mce-wp-mycarousel, #mce-wp-mycarousel th, #mce-wp-mycarousel td {
+border: 1px solid #ccc !important;
+padding: 5px !important;
+}
+#mce-wp-mycarousel tr:HOVER {
+background-color: #00A0D2;
+color: white;
+cursor: pointer;
+}
+#mce-wp-mycarousel th {
+border-color: #BBB !important;
+background-color: #AAA !important;
+color: #fff !important;
+}
+#mce-wp-mycarousel td:first-child {
+text-align: center;
+}
+output.range{
+vertical-align: top;
+}
